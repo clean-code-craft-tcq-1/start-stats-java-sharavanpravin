@@ -18,7 +18,7 @@ public class LEDAlert implements IAlerter {
    * {@inheritDoc}
    */
   @Override
-  public void setAlert(final boolean alert) {
+  public void setAlert() {
     this.ledGlows = alert;
   }
 
