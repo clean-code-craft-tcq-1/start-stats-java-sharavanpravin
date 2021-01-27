@@ -18,8 +18,8 @@ public class EmailAlert implements IAlerter {
    * {@inheritDoc}
    */
   @Override
-  public void setAlert(final boolean alert) {
-    this.emailSent = alert;
+  public void setAlert() {
+    this.emailSent = true;
   }
 
 }
