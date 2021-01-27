@@ -19,7 +19,7 @@ public class LEDAlert implements IAlerter {
    */
   @Override
   public void setAlert() {
-    this.ledGlows = alert;
+    this.ledGlows = true;
   }
 
 }
