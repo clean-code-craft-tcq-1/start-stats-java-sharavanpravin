@@ -30,8 +30,8 @@ public class StatsChecker {
   public void checkAndAlert(final List<Float> numberList) {
     DoubleSummaryStatistics summaryStatistics = numberList.stream().mapToDouble((a) -> a).summaryStatistics();
     if (summaryStatistics.getMax() > this.maxThreshold) {
-      this.alerters[0].setAlert(true);
-      this.alerters[1].setAlert(true);
+      this.alerters[0].setAlert();
+      this.alerters[1].setAlert();
     }
   }
 }
