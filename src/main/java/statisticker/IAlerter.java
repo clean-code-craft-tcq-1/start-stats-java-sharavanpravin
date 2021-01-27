@@ -12,5 +12,5 @@ public interface IAlerter {
   /**
    * @param alert
    */
-  public void setAlert(boolean alert);
+  public void setAlert();
 }
